@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+    }
+
+
+
+body{
+    background-color: var(--Grey900) ;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Nome{
+    
+    color: var(--White);
+}
+
+.bio{
+    color: var(--Green);
+}
+
+.paragrafo{
+    color: var(--Grey700)
+}
+
+.esqueleto{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Grey800);
+    align-items: center;
+    height: 600px;
+
+}
+
+.foto{
+    border-radius: 50%;
+    max-width: 100px;
+    align-items: center;
+    
+}
+
+.github{
+    border: 100px;
+    color: var(--White);
+    font-size: 20px;
+}
+
+.insta{
+    border: 100px;
+    color: var(--White);
+    font-size: 20px;
+}
+
+.twitter{
+    border: 100px;
+    color: var(--White);
+    font-size: 20px;
+}
+
+.Master{
+    color: var(--White);
+    border-color: var(--Grey700);
+    font-size: 20px;
+}
+
+.box1{
+    background-color: var(--Grey700);
+    width: 300px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    top: 70px;
+}
+
+.box2{
+    background-color: var(--Grey700);
+    width: 300px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    top: 100px;
+}
+
+.box3{
+    background-color: var(--Grey700);
+    width: 300px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    top: 130px;
+}
+
+.box4{
+    background-color: var(--Grey700);
+    width: 300px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    top: 160px;
+}
+
